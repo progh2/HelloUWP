@@ -7,7 +7,7 @@
     Style="{StaticResource PageStyle}"
     xmlns:prismMvvm="using:Prism.Windows.Mvvm"
     prismMvvm:ViewModelLocator.AutoWireViewModel="True" 
-    mc:Ignorable="d">
+    mc:Ignorable="d" d:DesignHeight="552">
     <Grid x:Name="ContentArea" Margin="{StaticResource MediumLeftRightMargin}">
         <Grid.RowDefinitions>
             <RowDefinition Height="48" />
@@ -21,6 +21,7 @@
         <Grid
             Grid.Row="1" 
             Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}">
+            <Button Content="Button" Margin="336,109,0,0" VerticalAlignment="Top" Height="229" Width="386" Click="Button_Click"/>
             <!--
                 The SystemControlPageBackgroundChromeLowBrush background represents where you should place your content. 
                 Place your content here.
